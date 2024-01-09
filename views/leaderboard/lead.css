@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+.head{
+    display: inline-flex;
+    margin-left: 430px;
+}
+
+.amountH{
+    margin-left: 340px;
+}
+
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    margin-left: 210px;
+}
+
+
+ul li{
+    flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 420px;
+}
+
+
+#expenses{
+    margin-left: 1200px;
+    padding: 6px 15px;
+    border: none;
+    background-color: bisque;
+    color: #141e30;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 15px;
+}
+
+#expenses:hover{
+    box-shadow: rgba(0, 0, 0, 0) 0px 5px 15px;
+}

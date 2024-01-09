@@ -1,0 +1,59 @@
+body{
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: white;
+}
+
+
+.form-container{
+    display: inline-flex;
+    margin-left: 100px;
+    margin-top: 10px;
+    
+}
+
+#report{
+    margin-left: 800px;
+}
+
+.main{
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+margin-left: 100px;
+    margin-top: 50px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  .expense{
+    text-align: end;
+  }
+
+  
+    #totalAmount{
+      text-align: end;
+      font-weight: 900;
+    }
+
+    #download{
+       margin-left: 1100px;
+       margin-top: 20px;
+       padding: 10px 15px;
+       border: none;
+       background-color: blueviolet;
+       color: white;
+       border-radius: 4px;
+       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    #download:hover{
+      box-shadow: rgba(0, 0, 0, 0) 0px 5px 15px;
+    }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="report.css">
+    <title>Report</title>
+</head>
+
+<body>
+    <h1 class="main">Expenses Reports</h1>
+    <!-- <div class="form-container">
+        <form id="date">
+            <input type="date" name="date">
+            <button type="submit">Search</button>
+        </form>
+        <form id="report">
+            <select>
+                <option>Weekly</option>
+                <option>Monthly</option>
+                <option>Yearly</option>
+            </select>
+            <button type="submit">Fetch Report</button>
+        </form>
+    </div> -->
+    <div>
+        <table id="table">
+            <tr>
+              <th>Date</th>
+              <th>Description</th>
+              <th>Category</th>
+              <th>Expense</th>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td id="totalAmount"></td>
+            </tr>
+          </table>
+    </div>
+
+    <button id="download">Download</button>
+<br>
+    <h1>Download History</h1>
+    <div>
+      <ul id="downloadH">
+
+      </ul>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js" integrity="sha512-b94Z6431JyXY14iSXwgzeZurHHRNkLt9d6bAHt7BZT38eqV+GyngIi/tVye4jBKPYQ2lBdRs0glww4fmpuLRwA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="report.js"></script>
+</body>
+
+</html>
